@@ -1,0 +1,578 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: pink;
+}
+
+li.showtrackr{
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background: gold;
+}
+
+.active {
+  background-color: lightgray;
+}
+
+
+
+.webseries {
+    background: #fff;
+    width: 1000px;
+    border-radius: 6px;
+    margin: 0 auto;
+    display: table;
+    padding: 15px 30px 30px;
+    box-sizing: border-box;
+}
+
+.search{
+   width: 250px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0px 20px;
+}
+
+body {
+  background: lightgray;
+  font-family: arial;
+}
+
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 200px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.ep {
+  padding: 5px;
+  text-align: center;
+  color:gray;
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(0, 0, 0, .9);
+  background-color: #FFEB3B;
+  padding: 15px;
+}
+
+.navbar-light .navbar-brand:hover {
+  background-color: #000;
+  color: #FFEB3B;
+}
+
+.mysi {
+  margin-right: 30px;
+  color: black !important;
+}
+
+.mysii {
+  margin-right: 15px
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, .5);
+  padding: 16px;
+  margin-left: -16px;
+}
+
+.hey {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.uki {
+  background-color: #fff;
+}
+
+ul.filters {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 30px 0px;
+}
+
+ul.filters>li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul.filters>li>a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  padding: 1px 10px;
+  background-color: #e9e8e8;
+  border-radius: 2px;
+  margin-top: 5px;
+  transition: transform 1s;
+  text-transform: capitalize;
+}
+
+ul.filters>li>a:hover {
+  background-color: #000;
+  color: #fff;
+  transform: scale(0.5);
+}
+
+ul.filters>li.active>a {
+  color: #000;
+  background-color: #FFEB3B;
+  border-radius: 2px;
+}
+
+ul.alfilters>li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul.alfilters>li>a {
+  display: block;
+  color: #4a4a4a !important;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: transform 1s;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0px 2px;
+}
+
+ul.alfilters>li>a:hover {
+  color: #000 !important;
+  transform: scale(0.9);
+}
+
+.detailhead {
+  font-weight: 900;
+  text-transform: capitalize;
+  text-align: left;
+  font-size: 25px;
+  margin-top: -25px;
+}
+
+.detailsheard {
+  color: #ec2e2e;
+  font-size: 30px;
+  font-weight: 900;
+  float: right;
+  margin-top: -65px;
+}
+
+.detailimg {
+  margin-bottom: -20px;
+}
+
+.detailbutton {
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+.detailtime {
+  font-size: 15px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.fa-amazon {
+  color: #ec2e2e;
+  font-size: 20px;
+  border: 1px solid #959494;
+  border-radius: 25px;
+  padding: 5px;
+  margin-left: 3px;
+}
+
+.fa-amazon:hover {
+  color: red;
+  background-color: #fff;
+}
+
+.detailcont {
+  border-left: solid 5px #eee;
+}
+
+.episodedetail {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.episodedetaillast {
+  font-size: 12px;
+  color: #b2b2b2;
+  font-weight: 500;
+}
+
+.episodedetailclock {
+  font-size: 12px;
+  color: #b2b2b2;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.episodetext {
+  font-size: 12px;
+  color: #000;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.forleftborder {
+  border-left: 5px solid #000;
+  max-height: 70px;
+  margin-top: 10px;
+}
+
+.epihr {
+  width: 100%;
+}
+
+.trendingshows {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'AlegreyaSans-Black';
+  src: url(font/AlegreyaSans-Black.otf);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #dfdfdf;
+  min-height: 1200px;
+}
+
+a {
+  color: rgba(0, 0, 0, .5);
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.nav-item{
+  padding-right: .6rem;
+    padding-left: .5rem;
+}
+.Active{
+  border: 1.2px dotted;
+  padding-left: 20px;
+  padding-right: 5px;
+
+}
+a:hover {
+  color: rgba(0, 0, 0, .7);
+  text-decoration: none;
+}
+
+.mycard {
+  background-color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.mycont {
+  background-color: #fff;
+  padding-top: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 20px 0px #9e9b9b;
+}
+
+.mysec {
+  margin-top: 20px;
+}
+
+hr {
+  width: 102.8%;
+  margin-left: -15px
+}
+
+.search {
+  float: right;
+  margin-top: -43px;
+  margin-right: 100px;
+  color: #a8a9ab;
+  border: none;
+}
+
+.search:focus {
+  border: 1px solid green !important;
+}
+
+.topshow {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.card-title {
+  margin-bottom: 0px;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.card-text:last-child {
+  margin-bottom: -15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.card-img, .card-img-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  transition: transform 10s;
+}
+
+
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  background-color: #fff;
+  background-clip: border-box;
+  border: none;
+  border-radius: .25rem;
+}
+
+.bg-light {
+  background-color: #ffffff !important;
+  padding: 0;
+  box-shadow: 0px 0px 14px 0px #5b5b5b;
+}
+
+.navbar-light .navbar-brand {
+  color: rgba(0, 0, 0, .9);
+  background-color: #FFEB3B;
+  padding: 15px;
+}
+
+.navbar-light .navbar-brand:hover {
+  background-color: #000;
+  color: #FFEB3B;
+}
+
+.mysi {
+  margin-right: 30px;
+  color: black !important;
+}
+
+.mysii {
+  margin-right: 15px
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, .5);
+  padding: 16px;
+  margin-left: -16px;
+}
+
+.hey {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.uki {
+  background-color: #fff;
+}
+
+ul.filters {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 30px 0px;
+}
+
+ul.filters>li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul.filters>li>a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  padding: 1px 10px;
+  background-color: #e9e8e8;
+  border-radius: 2px;
+  margin-top: 5px;
+  transition: transform 1s;
+  text-transform: capitalize;
+}
+
+ul.filters>li>a:hover {
+  background-color: #000;
+  color: #fff;
+  transform: scale(0.5);
+}
+
+ul.filters>li.active>a {
+  color: #000;
+  background-color: #FFEB3B;
+  border-radius: 2px;
+}
+
+ul.alfilters>li {
+  list-style: none;
+  display: inline-block;
+}
+
+ul.alfilters>li>a {
+  display: block;
+  color: #4a4a4a !important;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: transform 1s;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0px 2px;
+}
+
+ul.alfilters>li>a:hover {
+  color: #000 !important;
+  transform: scale(0.9);
+}
+
+.detailhead {
+  font-weight: 900;
+  text-transform: capitalize;
+  text-align: left;
+  font-size: 25px;
+  margin-top: -25px;
+}
+
+.detailsheard {
+  color: #ec2e2e;
+  font-size: 30px;
+  font-weight: 900;
+  float: right;
+  margin-top: -65px;
+}
+
+.detailimg {
+  margin-bottom: -20px;
+}
+
+.detailbutton {
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+.detailtime {
+  font-size: 15px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+.fa-amazon {
+  color: #ec2e2e;
+  font-size: 20px;
+  border: 1px solid #959494;
+  border-radius: 25px;
+  padding: 5px;
+  margin-left: 3px;
+}
+
+.fa-amazon:hover {
+  color: red;
+  background-color: #fff;
+}
+
+.detailcont {
+  border-left: solid 5px #eee;
+}
+
+.episodedetail {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.episodedetaillast {
+  font-size: 12px;
+  color: #b2b2b2;
+  font-weight: 500;
+}
+
+.episodedetailclock {
+  font-size: 12px;
+  color: #b2b2b2;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.episodetext {
+  font-size: 12px;
+  color: #000;
+  font-weight: 500;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.forleftborder {
+  border-left: 5px solid #000;
+  max-height: 70px;
+  margin-top: 10px;
+}
+
+.epihr {
+  width: 100%;
+}
+
+.trendingshows {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+/*signup*/
+#text{
+  margin-left: 150px;
+  width: 80%;
+ }

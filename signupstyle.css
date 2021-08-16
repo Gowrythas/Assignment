@@ -1,0 +1,148 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: pink;
+}
+
+li.showtrackr{
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background: gold;
+}
+
+.active {
+  background-color: lightgray;
+}
+
+
+
+body {
+  background: lightgray;
+  font-family: arial;
+}
+.signup-form h1 {
+  font-size: 36px;
+  text-align: center;
+  color: black;
+  margin-bottom: 30px;
+  font-weight: normalsignup
+}
+.signup-form .social-icon {
+    width: 100%;
+    font-size: 20px;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    float: left;
+}
+.signup-form {
+    background: #fff;
+    width: 450px;
+    border-radius: 6px;
+    margin: 0 auto;
+    display: table;
+    padding: 15px 30px 30px;
+    box-sizing: border-box;
+}
+.form-group {
+  float: left;
+  width: 100%;
+  margin: 0 0 15px;
+  position: relative;
+}
+.signup-form input {
+    width: 100%;
+    padding: 5px;
+    height: 56px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 15px;
+    padding-left: 75px;
+}
+.signup-form .form-group .input-icon {
+    font-size: 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    border-radius: 25px;
+    bottom: 0;
+    height: 100%;
+    padding-left: 35px;
+    color: #666;
+}
+.signup-form .signup-btn {
+  background: #0492C2;
+  padding: 11px 50px;
+  border-color: #45aba6;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  border: 1px solid #45aba6;
+  border-radius: 0;
+  width: 100%;
+  height: 56px;
+  cursor: pointer;
+  outline: none;
+}
+.signup-form .reset-psw {
+  float: left;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 11px;
+}
+.signup-form .signup {
+
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 11px;
+}
+
+.signup-form button:hover{
+  opacity: 0.9;
+}
+
+.signup-form input.error, .signup-form textarea.error {
+    border: 1px dashed red;
+    font-weight: 300;
+    color: red;
+}
+
+label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 5px;
+}
